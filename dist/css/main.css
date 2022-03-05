@@ -18,11 +18,17 @@ body a {
 body {
   font-family: "Old Standard TT", "Times New Roman", serif;
   background-color: #181511;
+  padding: 0;
+  margin: 0;
 }
 
 body a {
   text-decoration: none;
   color: inherit;
+}
+
+body section {
+  padding: 0;
 }
 
 .container {
@@ -39,6 +45,11 @@ body a {
   padding: 33px 0;
 }
 
+.container--view {
+  padding-top: 120px;
+  text-align: center;
+}
+
 .logo {
   font-size: 22px;
   color: #FFAE2B;
@@ -46,12 +57,7 @@ body a {
 
 .header {
   height: 80px;
-}
-
-.holder {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin-bottom: 37px;
 }
 
 .nav {
@@ -67,10 +73,56 @@ body a {
   text-transform: uppercase;
   color: #ACA592;
   font-size: 11px;
-  line-height: 86px;
+  line-height: 80px;
   margin: 0 13px;
 }
 
 .nav__link:hover {
   color: #FFAE2B;
+}
+
+.nav__button {
+  display: inline-block;
+  color: #FFAE2B;
+  padding: 20px 27px;
+  text-transform: uppercase;
+  width: 147px;
+  height: 57px;
+  font-size: 11px;
+  border: 1px solid #FFAE2B;
+}
+
+.nav__button:hover {
+  color: #181511;
+  background-color: #FFAE2B;
+}
+
+.view {
+  background-size: cover;
+  background: url("../img/hero1.jpg");
+}
+
+.view__dest {
+  font-size: 12px;
+  color: #FFAE2B;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.view__title {
+  position: relative;
+  left: 200px;
+  font-size: 70px;
+  color: #fff;
+  max-width: 869px;
+  margin-bottom: 55px;
+}
+
+.view__button {
+  width: 143px;
+  font-style: "Old Standard TT";
+  padding: 14px;
+  border: #FFAE2B solid 1px;
+  background-color: #FFAE2B;
+  margin-bottom: 200px;
 }
