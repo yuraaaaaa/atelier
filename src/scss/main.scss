@@ -43,17 +43,10 @@ body {
         padding: 33px 0;
     }
 
-    &--view {
+    &--section {
         padding-top: 120px;
         text-align: center;
     }
-
-    &--landing {
-        padding-top: 120px;
-        text-align: center;
-    }
-
-
 }
 
 .logo {
@@ -132,6 +125,11 @@ body {
         background-color: #FFAE2B;
         margin-bottom: 200px;
     }
+
+    &__button:hover {
+        color: #fff;
+        background: none;
+    }
 }
 
 .landing {
@@ -147,6 +145,10 @@ body {
         font-size: 60px;
         color: #FFAE2B;
     }
+
+    &__photo {
+        margin-bottom: 164px;
+    }
 }
 
 .holder {
@@ -155,6 +157,44 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 120px;
+
+    &--services {
+        margin: 0 auto;
+    }
+
+    &__card {
+        flex-basis: 30%;
+        padding: 65px;
+        text-align: left;
+        border:#4B4136 solid 1px;
+
+        h3 {
+            color: #FFAE2B;
+            font-size: 24px;
+            margin-bottom: 28px;
+        }
+
+        h4 {
+            color: #ACA592;
+            font-size: 15px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            color: #ACA592;
+            font-size: 11px;
+        }
+    }
+
+    &__icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    &--services {
+        margin: 0 auto;
+        margin-bottom: 105px;
+    }
 }
 
 .card {
@@ -175,5 +215,20 @@ body {
        font-size: 13px;
        color: #fff; 
        letter-spacing: 2px;
+    }
+}
+
+.services {
+
+    &__dest {
+        font-size: 12px;
+        color: #ACA592;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        font-size: 60px;
+        color: #FFAE2B;
     }
 }

@@ -50,12 +50,7 @@ body img {
   padding: 33px 0;
 }
 
-.container--view {
-  padding-top: 120px;
-  text-align: center;
-}
-
-.container--landing {
+.container--section {
   padding-top: 120px;
   text-align: center;
 }
@@ -139,6 +134,11 @@ body img {
   margin-bottom: 200px;
 }
 
+.view__button:hover {
+  color: #fff;
+  background: none;
+}
+
 .landing__dest {
   font-size: 12px;
   color: #ACA592;
@@ -151,6 +151,10 @@ body img {
   color: #FFAE2B;
 }
 
+.landing__photo {
+  margin-bottom: 164px;
+}
+
 .holder {
   width: 100%;
   margin: 0 auto;
@@ -160,6 +164,45 @@ body img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 120px;
+}
+
+.holder--services {
+  margin: 0 auto;
+}
+
+.holder__card {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  padding: 65px;
+  text-align: left;
+  border: #4B4136 solid 1px;
+}
+
+.holder__card h3 {
+  color: #FFAE2B;
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+
+.holder__card h4 {
+  color: #ACA592;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+.holder__card p {
+  color: #ACA592;
+  font-size: 11px;
+}
+
+.holder__icon {
+  width: 60px;
+  height: 60px;
+}
+
+.holder--services {
+  margin: 0 auto;
+  margin-bottom: 105px;
 }
 
 .card {
@@ -189,4 +232,16 @@ body img {
   font-size: 13px;
   color: #fff;
   letter-spacing: 2px;
+}
+
+.services__dest {
+  font-size: 12px;
+  color: #ACA592;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.services__title {
+  font-size: 60px;
+  color: #FFAE2B;
 }
